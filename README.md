@@ -1,120 +1,81 @@
-import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+<h1 align="center">Hi 👋, I'm Priyansu Rathore</h1>
+<h3 align="center">Full-Stack Developer | AI/ML Enthusiast | Problem Solver</h3>
 
-export default function AboutMe() {
-  return (
-    <section className="max-w-5xl mx-auto px-6 py-12 text-gray-100">
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=PriyansuRathore&label=Profile%20views&color=0e75b6&style=flat" />
+</p>
 
-      {/* Heading */}
-      <motion.h1
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="text-4xl font-bold mb-6 text-white"
-      >
-        👋 Hi, I'm{" "}
-        <span className="text-blue-400">Priyansu Rathore</span>
-      </motion.h1>
+---
 
-      {/* Intro */}
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.2 }}
-        className="text-lg leading-relaxed text-gray-300 mb-8 max-w-3xl"
-      >
-        A passionate{" "}
-        <span className="font-semibold text-blue-400">Full-Stack Developer</span>{" "}
-        and <span className="font-semibold text-blue-400">AI/ML enthusiast</span>.
-        I build scalable web apps, intelligent systems, and seamless digital experiences.
-        With <strong>400+ LeetCode problems</strong> solved, I bring strong problem-solving
-        and clean engineering principles to everything I build.
-      </motion.p>
+### 🚀 About Me  
+- 🎓 B.Tech CSE (AI & ML) @ Bennett University  
+- 🌱 Currently exploring **AI + Full-Stack Engineering**  
+- 💡 Passionate about **scalable systems, ML models, and web apps**  
+- 🧠 Solved **400+ LeetCode problems**  
+- 💬 Ask me about **React, Node.js, MongoDB, Python, ML/NLP**  
+- 📫 Reach me at **priyansurathorepsr@gmail.com**  
 
-      {/* Grid Section */}
-      <div className="grid sm:grid-cols-2 gap-8">
+---
 
-        {/* Tech Stack Card */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="bg-gray-900/60 rounded-2xl p-6 shadow-lg border border-gray-800"
-        >
-          <h2 className="text-2xl font-semibold mb-4 text-blue-400">
-            Tech Stack
-          </h2>
-          <ul className="space-y-2 text-gray-300">
-            <li>⚡ React.js, Next.js, JavaScript, TypeScript</li>
-            <li>🎨 Tailwind CSS, HTML5, CSS3, Redux Toolkit</li>
-            <li>🛠 Node.js, Express.js, REST APIs</li>
-            <li>🗄 MongoDB, MySQL, SQLite, Firebase</li>
-            <li>🤖 Python, OpenCV, scikit-learn, NLP</li>
-            <li>🧰 Git, GitHub, Postman, Vercel</li>
-          </ul>
-        </motion.div>
+### 🌐 Connect With Me  
+<p align="left">
+<a href="https://github.com/PriyansuRathore" target="_blank">
+  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" height="32" width="40" />
+</a>
+<a href="https://www.linkedin.com/in/priyansu-rathore-43bb47253/" target="_blank">
+  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="32" width="40" />
+</a>
+<a href="https://leetcode.com/u/Priyansu_Rathore7576/" target="_blank">
+  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="32" width="40" />
+</a>
+</p>
 
-        {/* Languages Card */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="bg-gray-900/60 rounded-2xl p-6 shadow-lg border border-gray-800"
-        >
-          <h2 className="text-2xl font-semibold mb-4 text-blue-400">
-            Languages
-          </h2>
-          <ul className="space-y-2 text-gray-300">
-            <li>✔ JavaScript & TypeScript</li>
-            <li>✔ Python</li>
-            <li>✔ C++</li>
-            <li>✔ SQL</li>
-            <li>✔ HTML & CSS</li>
-          </ul>
-        </motion.div>
-      </div>
+---
 
-      {/* Links Card */}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6, delay: 0.2 }}
-        className="mt-10 bg-gray-900/60 rounded-2xl p-6 shadow-lg border border-gray-800"
-      >
-        <h2 className="text-2xl font-semibold mb-4 text-blue-400">
-          Connect With Me
-        </h2>
+### 🛠️ Languages & Tools  
+<p align="left">
 
-        <div className="flex items-center gap-6 text-2xl">
-          <a
-            href="https://github.com/PriyansuRathore"
-            className="text-gray-300 hover:text-white"
-            target="_blank"
-          >
-            <FaGithub />
-          </a>
+<!-- Frontend -->
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="40" height="40"/>
 
-          <a
-            href="https://leetcode.com/u/Priyansu_Rathore7576/"
-            className="text-gray-300 hover:text-yellow-400"
-            target="_blank"
-          >
-            <SiLeetcode />
-          </a>
+<!-- Backend -->
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="40" height="40"/>
 
-          <a
-            href="https://www.linkedin.com/in/priyansu-rathore-43bb47253/"
-            className="text-gray-300 hover:text-blue-500"
-            target="_blank"
-          >
-            <FaLinkedin />
-          </a>
-        </div>
-      </motion.div>
-    </section>
-  );
-}
+<!-- Databases -->
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" width="40" height="40"/>
+
+<!-- AI/ML -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="40" height="40"/>
+
+<!-- Tools -->
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/postman/postman-icon.svg" width="40" height="40"/>
+
+<!-- Other Languages -->
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40"/>
+
+</p>
+
+---
+
+### 📊 GitHub Stats  
+<p>
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=PriyansuRathore&show_icons=true&layout=compact&theme=tokyonight" />
+</p>
+
+<p>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=PriyansuRathore&show_icons=true&theme=tokyonight" />
+</p>
