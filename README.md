@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaCode } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
 export default function AboutMe() {
   return (
     <section className="max-w-5xl mx-auto px-6 py-12 text-gray-100">
+
       {/* Heading */}
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
@@ -12,7 +13,8 @@ export default function AboutMe() {
         transition={{ duration: 0.6 }}
         className="text-4xl font-bold mb-6 text-white"
       >
-        👋 Hi, I'm <span className="text-blue-400">Priyansu Rathore</span>
+        👋 Hi, I'm{" "}
+        <span className="text-blue-400">Priyansu Rathore</span>
       </motion.h1>
 
       {/* Intro */}
@@ -32,7 +34,7 @@ export default function AboutMe() {
 
       {/* Grid Section */}
       <div className="grid sm:grid-cols-2 gap-8">
-        
+
         {/* Tech Stack Card */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -41,7 +43,9 @@ export default function AboutMe() {
           transition={{ duration: 0.6 }}
           className="bg-gray-900/60 rounded-2xl p-6 shadow-lg border border-gray-800"
         >
-          <h2 className="text-2xl font-semibold mb-4 text-blue-400">Tech Stack</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-blue-400">
+            Tech Stack
+          </h2>
           <ul className="space-y-2 text-gray-300">
             <li>⚡ React.js, Next.js, JavaScript, TypeScript</li>
             <li>🎨 Tailwind CSS, HTML5, CSS3, Redux Toolkit</li>
@@ -60,7 +64,9 @@ export default function AboutMe() {
           transition={{ duration: 0.6 }}
           className="bg-gray-900/60 rounded-2xl p-6 shadow-lg border border-gray-800"
         >
-          <h2 className="text-2xl font-semibold mb-4 text-blue-400">Languages</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-blue-400">
+            Languages
+          </h2>
           <ul className="space-y-2 text-gray-300">
             <li>✔ JavaScript & TypeScript</li>
             <li>✔ Python</li>
@@ -79,15 +85,32 @@ export default function AboutMe() {
         transition={{ duration: 0.6, delay: 0.2 }}
         className="mt-10 bg-gray-900/60 rounded-2xl p-6 shadow-lg border border-gray-800"
       >
-        <h2 className="text-2xl font-semibold mb-4 text-blue-400">Connect With Me</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-blue-400">
+          Connect With Me
+        </h2>
+
         <div className="flex items-center gap-6 text-2xl">
-          <a href="https://github.com/PriyansuRathore" className="text-gray-300 hover:text-white">
+          <a
+            href="https://github.com/PriyansuRathore"
+            className="text-gray-300 hover:text-white"
+            target="_blank"
+          >
             <FaGithub />
           </a>
-          <a href="https://leetcode.com/u/Priyansu_Rathore7576/" className="text-gray-300 hover:text-yellow-400">
+
+          <a
+            href="https://leetcode.com/u/Priyansu_Rathore7576/"
+            className="text-gray-300 hover:text-yellow-400"
+            target="_blank"
+          >
             <SiLeetcode />
           </a>
-          <a href="https://www.linkedin.com/in/priyansu-rathore-43bb47253/" className="text-gray-300 hover:text-blue-500">
+
+          <a
+            href="https://www.linkedin.com/in/priyansu-rathore-43bb47253/"
+            className="text-gray-300 hover:text-blue-500"
+            target="_blank"
+          >
             <FaLinkedin />
           </a>
         </div>
