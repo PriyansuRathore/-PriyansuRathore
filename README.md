@@ -8,17 +8,17 @@
 
 <h4 align="center">
 Hi 👋! I'm <b>Priyansu Singh Rathore</b>, a  
-<b>Full-Stack Developer</b> • <b>Frontend Software Engineer</b> • <b>AI/ML Enthusiast</b>.  
-I love building scalable web apps, designing intelligent AI systems, and solving complex DSA problems.<br/>
-I have solved <b>600+ LeetCode problems</b>, maintained a <b>365-day streak</b>, and reached a <b>1699 contest rating</b>. 🚀
+<b>Full-Stack Developer</b> • <b>Frontend Engineer</b> • <b>AI/ML Enthusiast</b>.  
+I love building scalable web apps, crafting intelligent AI systems, and solving challenging DSA problems.<br/>
+I have solved <b>600+ LeetCode problems</b>, achieved a <b>111+ day streak</b> earlier, and maintained a <b>1699 contest rating</b>. 🚀
 </h4>
 
 <img align="right" alt="gif" width="300" style="border-radius:5px" src="https://media0.giphy.com/media/2IudUHdI075HL02Pkk/200.webp">
 
-- 🎓 B.Tech CSE (AI/ML) — Bennett University (CGPA: 9.0)  
+- 🎓 **B.Tech CSE (AI/ML)** — Bennett University (CGPA: **9.0**)  
 - 💻 Passionate about **Full-Stack Development, AI, NLP & Frontend Engineering**  
-- 🧠 Interested in **AI for Image Processing & Semantic Search**  
-- 🏆 Completed 400+ days on LeetCode & solved 600+ problems  
+- 🧠 Exploring **AI for Image Processing, Semantic Search & LLM Integrations**  
+- 🔥 Completed **400+ days on LeetCode** & solved **600+ problems**  
 - 📫 Connect →  
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/priyansu-rathore-43bb47253/)  
   [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/PriyansuRathore)  
@@ -30,11 +30,11 @@ I have solved <b>600+ LeetCode problems</b>, maintained a <b>365-day streak</b>,
 
 | Project | Tech Stack | Description |
 |--------|------------|-------------|
-| **QuickAI – AI-Powered SaaS Platform** | React 19, Node.js, Express, PostgreSQL, Tailwind, Clerk, Gemini, Cloudinary, ClipDrop | AI SaaS for content creation, image generation/editing & document analysis. Includes dashboards, subscriptions, and optimized APIs (<500ms under 50 concurrent requests). |
-| **Vibe Commerce – Mock E-Commerce Cart** | React, Node.js, Express, SQLite, REST API, Tailwind | A full-stack shopping cart app with a clean UI, cart logic, persistent storage, and modular backend APIs. |
-| **Paste App – Smart Code & Notes Manager** | React, Tailwind | A modern app to store, edit, share & manage code snippets and notes. Future: AI autocomplete + backend. |
-| **Poultry Disease Detection (AI Project)** | Python, OpenCV, CNN, TensorFlow | Image-classification model for poultry disease detection with high accuracy using CNNs. |
-| **TaskFlow – Modern Todo Manager** | HTML, CSS, JavaScript | A clean and responsive productivity app with CRUD, filters, animations, and local storage. |
+| **QuickAI – AI-Powered SaaS Platform** | React 19, Node.js, Express, PostgreSQL, Tailwind, Clerk, Gemini, Cloudinary, ClipDrop | AI SaaS for content creation, image generation/editing & document analysis. Includes dashboards, subscriptions & optimized APIs (<500ms under 50+ concurrent requests). |
+| **Vibe Commerce – Full-Stack E-Com Cart** | React, Node.js, Express, SQLite, REST API, Tailwind | Mock e-commerce cart system with product listing, add/remove, totals, and modular backend APIs. |
+| **Paste App – Modern Code & Notes Manager** | React, Tailwind | Store, edit, share & manage code snippets. Roadmap: AI autocomplete + backend integrations. |
+| **Poultry Disease Detection (AI Project)** | Python, CNN, OpenCV, TensorFlow | Deep-learning model to detect poultry diseases using CNN-based image classification. |
+| **TaskFlow – Minimal Todo Manager** | HTML, CSS, JavaScript | Clean and responsive productivity app with CRUD, filters, animations & local storage. |
 
 ---
 
